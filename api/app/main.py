@@ -5,7 +5,7 @@ import pandas as pd
 
 app = FastAPI()
 
-nn_pipe = load('../models/gmmpipeline.joblib')
+nn_pipe = load('../models/nn_pipe.joblib')
 
 @app.get("/")
 def read_root():
